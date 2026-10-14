@@ -1,39 +1,54 @@
-## React
+# Student Management System
 
-This is a simple React application. This application serves as a basic template for a react applications.  
-This project is bootstrapped with [Vite](https://vitejs.dev/guide/).
+## Overview
+A React-based Student Management System demonstrating reusable components, props, and structured UI development.
 
-## How to run
+## Features
+- Reusable React components
+- Student profile display
+- Student details such as name, department, and year of study
+- Header and footer components
+- Component-based UI design
 
-1. Before running the application, make sure all dependencies are installed. To install dependencies, run following command in terminal:
+## Technologies Used
+- React
+- JavaScript
+- HTML5
+- CSS3
+- Vite
 
-   ```sh
-   npm install
-   ```
+## Getting Started
 
-2. Once dependencies are installed, run the following command to start the application:
+### 1. Clone the repository
+```bash
+git clone https://github.com/VidhyaVarshinicodespace/student-management-system
+```
 
-   ```sh
-   npm run dev
-   ```
+### 2. Navigate to the project directory
+```bash
+cd student-management-system
+```
 
-3. Refresh the URL in simple browser to see the output.
+### 3. Install dependencies
+```bash
+npm install
+```
 
-## FAQs & Debugging
+### 4. Start the development server
+```bash
+npm run dev
+```
 
-### 1. I do not see browser in my workspace
+Open the local URL displayed in the terminal to view the application.
 
-Studio will automatically open the app in a new browser tab. If not, you can use the following steps to open the simple browser
+## Learning Outcomes
+- Understanding React components and props
+- Passing student details between components
+- Organizing a React project
+- Styling components using CSS
 
-1. From VS Code command pallette(`Ctrl/Cmd + Shift + P`), run **Studio Manager: SimpleBrowser Default URL** command. This will open the app in a new browser tab.
+## Author
+**VidhyaVarshini Padmanaban**
 
-2. Your app runs on hosted env which can be accessed using host id, port provided in file **.vscode/.studio/studio-env.json**. Use values to create the URL as follows:
-   `https://<STUDIO_HOST_ID>-3000.<STUDIO_DOMAIN>`
-
-### 2. Getting `vite: not found` error
-
-This means node_modules are missing in your workspace, please refer the 'How to run' section and make sure you have followed the steps in sequence
-
-### 3. Can I use create-react-app instead Vite?
-
-Yes, you can use create-react-app instead Vite, the default workspace is loaded with Vite setup, you can remove the Vite dependencies, add create-react-app dependencies and update the scripts to start using create-react-app.
+- GitHub: https://github.com/VidhyaVarshinicodespace
+- LinkedIn: https://www.linkedin.com/in/vidhyavarshini-padmanaban-68813632a/
